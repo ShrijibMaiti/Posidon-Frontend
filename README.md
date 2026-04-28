@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Posidon Frontend | AI-Driven Flood Accountability Ledger
 
-# Run and deploy your AI Studio app
+Posidon is a next-generation disaster response and accountability platform. It integrates real-time machine learning flood simulations with a Web3 cryptographic ledger to ensure that environmental data and emergency responses are immutable, verifiable, and transparent.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/367ddb26-eff4-415e-8cab-48f45eb5031c
+- **Dynamic Geospatial Visualization**: Real-time rendering of predicted vs. actual flood extents using Mapbox/GeoJSON.
+- **ML-Web3 Integration**: Automated hashing of simulation payloads for on-chain anchoring.
+- **Accountability Ledger**: Smart contract-based auditing system to prevent data tampering during emergencies.
+- **Multilingual Support**: Integrated Bengali audio alerts for localized emergency broadcast simulations.
+- **Decoupled Architecture**: High-performance React/Vite frontend architecturally separated from the EVM smart contract backend.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS
+- **State Management**: Zustand
+- **Animations**: Framer Motion
+- **Web3**: Ethers.js, Hardhat, Solidity
+- **Geospatial**: Mapbox GL JS
 
+## 🏗️ Architecture
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The system operates on a **Verification-First** principle:
+1. **Simulation**: ML models generate flood extent predictions.
+2. **Hashing**: The frontend generates a unique cryptographic hash of the simulation metadata.
+3. **Anchoring**: This hash is submitted to the `AccountabilityChain` smart contract.
+4. **Validation**: Stakeholders can verify the authenticity of flood data by comparing the live state against the on-chain anchor.
+
+## 📦 Installation & Local Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/ShrijibMaiti/Posidon-Frontend.git](https://github.com/ShrijibMaiti/Posidon-Frontend.git)
