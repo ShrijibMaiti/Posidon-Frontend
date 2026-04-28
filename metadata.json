@@ -1,0 +1,6 @@
+{
+  "name": "Project Poseidon",
+  "description": "Next.js dashboard for FNO-based flood simulation and verified early warning delivery in the Damodar Basin.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

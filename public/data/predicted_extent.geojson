@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "depth": 4.2, "label": "Predicted Flood Extent" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [87.71, 22.66],
+          [87.73, 22.66],
+          [87.73, 22.68],
+          [87.71, 22.68],
+          [87.71, 22.66]
+        ]]
+      }
+    }
+  ]
+}

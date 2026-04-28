@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "label": "Actual Historical Extent" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [87.705, 22.655],
+          [87.735, 22.655],
+          [87.735, 22.685],
+          [87.705, 22.685],
+          [87.705, 22.655]
+        ]]
+      }
+    }
+  ]
+}
